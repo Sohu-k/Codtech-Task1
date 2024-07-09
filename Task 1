@@ -1,0 +1,65 @@
+/*The Below code is a html code which is for my website
+which Shows people few tasks to do in their
+day to day life for thier social experince*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>To-Do List App</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Tasks</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="task-section">
+                <h2>Tasks</h2>
+                <div class="task-cards">
+                    <div class="task-card">
+                        <h3>Running</h3>
+                        <p>Go for a 30-minute run</p>
+                        <button class="task-btn">Done</button>
+                    </div>
+                    <div class="task-card">
+                        <h3>Exercise</h3>
+                        <p>Do 30 push-ups and 20 squats</p>
+                        <button class="task-btn">Done</button>
+                    </div>
+                    <div class="task-card">
+                        <h3>Cycling</h3>
+                        <p>Ride for 1 hour</p>
+                        <button class="task-btn">Done</button>
+                    </div>
+                    <div class="task-card">
+                        <h3>Playing Video Games</h3>
+                        <p>Play for 2 hours</p>
+                        <button class="task-btn">Done</button>
+                    </div>
+                    <div class="task-card">
+                        <h3>Watching Movie</h3>
+                        <p>Watch a 2-hour movie</p>
+                        <button class="task-btn">Done</button>
+                    </div>
+                </div>
+            </section>
+            <form id="todo-form">
+                <input type="text" id="todo-input" placeholder="Enter a task">
+                <button id="todo-add-btn">Add Task</button>
+            </form>
+            <ul id="todo-list"></ul>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
