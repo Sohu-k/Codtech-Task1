@@ -15,6 +15,9 @@ Overview of the Project:
 Project: Craft a user-friendly to-do list web app with CSS, HTML, and
 JavaScript.
 
+![Screenshot 2024-07-09 160219](https://github.com/Sohu-k/Codtech-Task1/assets/175113453/0afe0269-1d53-489d-812f-31573f1d24b6)
+
+
 The project aims to create a user-friendly to-do list web application using HTML, CSS, and JavaScript. The application will allow users to view, add, and mark tasks as completed. The to-do list will be displayed in a card-based format, with each task having a title, description, and a "Done" button. The application will also have a form to add new tasks.
 
 Objective:
